@@ -1,0 +1,11 @@
+{
+  "config": {
+      "encoding": "FLAC",
+      "sampleRateHertz": 48000,
+      "languageCode": "ja-JP",
+      "enableWordTimeOffsets": false
+  },
+  "audio": {
+      "uri": "gs://path/filename.flac"
+  }
+}

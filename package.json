@@ -1,0 +1,27 @@
+{
+  "name": "sample-speech-nodejs",
+  "version": "1.0.0",
+  "description": "sample google cloud speech api",
+  "main": "index.js",
+  "dependencies": {
+    "@google-cloud/bigquery": "^1.0.0",
+    "@google-cloud/speech": "^1.0.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/basi/sample-speech-nodejs.git"
+  },
+  "keywords": [
+    "speech"
+  ],
+  "author": "basi",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/basi/sample-speech-nodejs/issues"
+  },
+  "homepage": "https://github.com/basi/sample-speech-nodejs#readme"
+}
