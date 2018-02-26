@@ -2,7 +2,8 @@
 const Speech = require('@google-cloud/speech');
 
 // Your Google Cloud Platform project ID
-const projectId = 'your-project-id'; // NOTE: 適切に変更する
+const setup = require('../setup.json');
+const projectId = setup.projectId;
 
 const client = new Speech.SpeechClient({
   projectId: projectId,
