@@ -11,7 +11,7 @@ const client = new Speech.SpeechClient({
 });
 
 // The name of the audio file to transcribe
-const fileName = './resources/filename.flac'; // NOTE: 適切に変更する
+const fileName = './resources/brooklyn.flac';
 
 // Reads a local audio file and converts it to base64
 const file = fs.readFileSync(fileName);
@@ -22,11 +22,10 @@ const audio = {
   content: audioBytes,
 };
 
-// NOTE: 適切に変更する
 const config = {
   encoding: 'FLAC',
-  sampleRateHertz: 48000,
-  languageCode: 'ja-JP',
+  sampleRateHertz: 16000,
+  languageCode: 'en-US',
 };
 
 const request = {
